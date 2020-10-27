@@ -1,0 +1,44 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "should login with valid credentials",
+    "uid" : "9732beb3018ceacb",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1603610013629,
+      "stop" : 1603610019295,
+      "duration" : 5666
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-86.0.4240.75" ]
+  }, {
+    "name" : "Go to the landing page",
+    "uid" : "644d1dba2f84cf92",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1603688954976,
+      "stop" : 1603688968725,
+      "duration" : 13749
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-86.0.4240.75" ]
+  }, {
+    "name" : "Go to the landing page",
+    "uid" : "c21ff1ba17d3fc71",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1603795313791,
+      "stop" : 1603795338952,
+      "duration" : 25161
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-86.0.4240.111" ]
+  } ]
+}

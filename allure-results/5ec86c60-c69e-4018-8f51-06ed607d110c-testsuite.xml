@@ -1,0 +1,37 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1603614715258' stop='1603614715635'>
+    <name>Workshop test suite</name>
+    <title>Workshop test suite</title>
+    <test-cases>
+        <test-case start='1603614715259' status='broken' stop='1603614715633'>
+            <name>Go to the landing page</name>
+            <title>Go to the landing page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-86.0.4240.75'/>
+            </parameters>
+            <steps>
+                <step start='1603614715271' status='passed' stop='1603614715629'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='c890ed68-9666-43b2-8493-46b0ed49f56c-attachment.png' type='image/png' size='6551'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>_landing.default.open is not a function</message>
+                <stack-trace>TypeError: _landing.default.open is not a function
+                    at Context.&lt;anonymous> (C:\Users\ngunaseka\demo\webdriverIOAssignment\test\specs\/login.specs.js:5:17)
+                    at Context.executeSync (C:\Users\ngunaseka\demo\webdriverIOAssignment\node_modules\@wdio\sync\build\index.js:25:22)
+                    at C:\Users\ngunaseka\demo\webdriverIOAssignment\node_modules\@wdio\sync\build\index.js:46:68</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

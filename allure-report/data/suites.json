@@ -1,0 +1,52 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "My Login application",
+    "children" : [ {
+      "name" : "should login with valid credentials",
+      "uid" : "9732beb3018ceacb",
+      "parentUid" : "ff9b43c34a817b44fa9b6edf61b00141",
+      "status" : "broken",
+      "time" : {
+        "start" : 1603610013629,
+        "stop" : 1603610019295,
+        "duration" : 5666
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.75" ]
+    } ],
+    "uid" : "ff9b43c34a817b44fa9b6edf61b00141"
+  }, {
+    "name" : "Workshop test suite",
+    "children" : [ {
+      "name" : "Go to the landing page",
+      "uid" : "644d1dba2f84cf92",
+      "parentUid" : "ff1d6994531c994c9599be9c4e632685",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603688954976,
+        "stop" : 1603688968725,
+        "duration" : 13749
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.75" ]
+    }, {
+      "name" : "Go to the landing page",
+      "uid" : "c21ff1ba17d3fc71",
+      "parentUid" : "ff1d6994531c994c9599be9c4e632685",
+      "status" : "passed",
+      "time" : {
+        "start" : 1603795313791,
+        "stop" : 1603795338952,
+        "duration" : 25161
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-86.0.4240.111" ]
+    } ],
+    "uid" : "ff1d6994531c994c9599be9c4e632685"
+  } ]
+}

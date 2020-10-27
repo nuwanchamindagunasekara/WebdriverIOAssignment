@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Oct 26 10:39:14 IST 2020","Mon Oct 26 10:39:28 IST 2020","13749","","Workshop test suite","","Workshop test suite","Go to the landing page","Go to the landing page",""
+"broken","Sun Oct 25 12:43:33 IST 2020","Sun Oct 25 12:43:39 IST 2020","5666","","My Login application","","My Login application","should login with valid credentials","should login with valid credentials",""
+"passed","Tue Oct 27 16:11:53 IST 2020","Tue Oct 27 16:12:18 IST 2020","25161","","Workshop test suite","","Workshop test suite","Go to the landing page","Go to the landing page",""
